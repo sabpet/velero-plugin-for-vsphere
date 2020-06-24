@@ -1,6 +1,8 @@
 # Known Issues
 ## v1.0.1
 
+iiosifdaslkfjasn
+
 2. The restore might place the restored PVs in a vSphere datastore which is imcompatible with the StorageClass
 specified in the restored PVC, as we don't rely on the StorageClass for the PV placement on restore in the release v1.0.0.
 A fix to the PV placement based on the StorageClass can be expected in a future release.
